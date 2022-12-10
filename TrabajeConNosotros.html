@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>¡Tienda de mascotas Tas!</title>
+        <style>
+         .banner img {
+             max-width: 100%;
+         }
+         img.producto {
+             max-width: 100%;
+         }
+         td.producto {
+             width: 10%;
+         }
+         table.productos {
+             border: lightblue solid 2px;
+             background-color: grey;
+         }
+         table.productos tr td {
+             border: lightblue solid 2px;
+             background-color: white;
+         }
+         #contacto table{
+             width: 100%;
+             margin-top: 20px;
+         }
+         #contacto table td {
+             text-align: center;
+             font-weight: bolder;
+             color: blueviolet;
+         }
+         #contacto h2 {
+             text-align: center;
+         }
+        </style>
+    </head>
+    <body>
+        <div id="head">
+            <span class="menu">
+                ||
+                <a href="Productos.html">Productos</a> |
+                <a href="Servicios.html">Servicios</a> |
+                <a href="#contacto">Contacto</a> |
+                <a href="TrabajeConNosotros.html">Trabaje Con Nosotros</a>
+                ||
+            </span>
+            <div class="banner">
+                <h1>Tienda de Mascotas Tas</h1>
+                <img src="imagenes/banner.jpg"/>
+                <br/>
+                <i>Amor para quienes son tu compañia</i>
+            </div>
+        </div>
+        <div id="contenido">
+            <h2>Trabaje con Nosotros</h2>
+            <form>
+                <fieldset>
+                    <legend>Información de contacto:</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre"/>
+                    <br/>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" name="telefono"/>
+                    <br/>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email"/>
+                    <br/>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje"></textarea>
+                    <br/>
+                    <button type="send">Enviar</button>
+                </fieldset>
+            </form>
+        </div>
+        <div id="contacto">
+            <h2>Contacto</h2>
+            <table>
+                <tr>
+                    <td>Cra 76 No 45-64 Cali</td>
+                    <td>Telefono: 602 567 43 23</td>
+                    <td>Celular: 345 345 45 45</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
